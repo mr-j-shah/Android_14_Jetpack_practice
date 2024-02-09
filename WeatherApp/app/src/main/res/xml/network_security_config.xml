@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow cleartext traffic for specific domains -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">api.weatherstack.com</domain>
+        <!-- Add more domains as needed -->
+    </domain-config>
+</network-security-config>
